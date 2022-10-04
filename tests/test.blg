@@ -1,0 +1,28 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'tests/test.blg'
+[61] biber:340> INFO - === Tue Oct  4, 2022, 20:34:49
+[79] Biber.pm:418> INFO - Reading 'tests/test.bcf'
+[135] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
+[149] Biber.pm:4383> INFO - Processing section 0
+[158] Biber.pm:4574> INFO - Looking for bibtex file 'http://people.cs.uu.nl/hansb/graphs-bib/definitions.bib' for section 0
+[158] Utils.pm:167> INFO - Data source 'http://people.cs.uu.nl/hansb/graphs-bib/definitions.bib' is a remote BibTeX data source - fetching ...
+[802] bibtex.pm:1713> INFO - LaTeX decoding ...
+[905] bibtex.pm:1518> INFO - Found BibTeX data source '/tmp/biber_tmp_P36s/biber_remote_data_source_MKWO3.bib'
+[946] Biber.pm:4574> INFO - Looking for bibtex file 'https://www.staff.science.uu.nl/~bodla101/graphs-bib/papers.bib' for section 0
+[947] Utils.pm:167> INFO - Data source 'https://www.staff.science.uu.nl/~bodla101/graphs-bib/papers.bib' is a remote BibTeX data source - fetching ...
+[1472] bibtex.pm:1713> INFO - LaTeX decoding ...
+[3093] bibtex.pm:1518> INFO - Found BibTeX data source '/tmp/biber_tmp_P36s/biber_remote_data_source_6n89f.bib'
+[3316] Utils.pm:398> ERROR - BibTeX subsystem: /tmp/biber_tmp_P36s/6b93d85570d368bc4337cc4aaf501b50_11529.utf8, line 5718, syntax error: found "author", expected ","
+[3317] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_P36s/8fa54158a4f1bbc69d0e4db15c123aac_11529.utf8, line 62, warning: 1 characters of junk seen at toplevel
+[3317] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_P36s/8fa54158a4f1bbc69d0e4db15c123aac_11529.utf8, line 63, warning: 1 characters of junk seen at toplevel
+[3317] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_P36s/8fa54158a4f1bbc69d0e4db15c123aac_11529.utf8, line 64, warning: 1 characters of junk seen at toplevel
+[3318] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_P36s/8fa54158a4f1bbc69d0e4db15c123aac_11529.utf8, line 97, warning: 1 characters of junk seen at toplevel
+[3318] Biber.pm:130> WARN - Duplicate entry key: 'FellowsL88a' in file '/tmp/biber_tmp_P36s/biber_remote_data_source_6n89f.bib', skipping ...
+[3318] Biber.pm:130> WARN - Duplicate entry key: 'Kloks93' in file '/tmp/biber_tmp_P36s/biber_remote_data_source_6n89f.bib', skipping ...
+[3318] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_P36s/6b93d85570d368bc4337cc4aaf501b50_11529.utf8, line 1805, warning: undefined macro "sicomp"
+[3319] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_P36s/6b93d85570d368bc4337cc4aaf501b50_11529.utf8, line 2054, warning: 296 characters of junk seen at toplevel
+[3319] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_P36s/6b93d85570d368bc4337cc4aaf501b50_11529.utf8, line 4934, warning: 175 characters of junk seen at toplevel
+[3319] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_P36s/6b93d85570d368bc4337cc4aaf501b50_11529.utf8, line 4923, warning: undefined macro "aaai07"
+[3319] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_P36s/6b93d85570d368bc4337cc4aaf501b50_11529.utf8, line 5629, warning: 172 characters of junk seen at toplevel
+[3319] Biber.pm:132> INFO - WARNINGS: 11
+[3320] Biber.pm:135> INFO - ERRORS: 1
