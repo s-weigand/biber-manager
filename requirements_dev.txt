@@ -5,7 +5,7 @@ wheel>=0.33.6
 # pinned so the bot can create PRs to test with new versions
 py7zr==0.20.0
 requests-html==0.10.0
-typer==0.6.1
+typer==0.7.0
 
 # quality asurence
 black>=19.10b0
