@@ -3,7 +3,7 @@ pip>=19.2.3
 wheel>=0.33.6
 # runtime requirements
 # pinned so the bot can create PRs to test with new versions
-py7zr==0.20.0
+py7zr==0.20.2
 requests-html==0.10.0
 typer==0.6.1
 
